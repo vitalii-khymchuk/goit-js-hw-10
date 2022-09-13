@@ -1,0 +1,11 @@
+    {{#with this}}
+    <div class="country-name-wrap">
+        <img class="country-flag" src="{{flags.svg}}" alt="Flag of {{name.official}}">
+        <span class="country-name">{{name.official}}</span>
+    </div>
+    <ul>
+    <li class="country-info-item"><b>Capital: </b>{{capital}}</li>
+    <li class="country-info-item"><b>Population: </b>{{population}}</li>
+    <li class="country-info-item"><b>Languages: </b>{{languages}}</li>
+    </ul>
+ {{/with}}
